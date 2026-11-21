@@ -1,0 +1,45 @@
+# Python environments and bytecode
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# JavaScript dependencies and build output
+node_modules/
+build/
+dist/
+
+# Python packaging and test output
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local data and generated datasets
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/synthetic/*
+!data/synthetic/.gitkeep
+
+# Model weights, checkpoints, and local model stores
+models/
+artifacts/
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.gguf
